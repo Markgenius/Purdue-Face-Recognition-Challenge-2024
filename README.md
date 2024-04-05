@@ -8,6 +8,12 @@ Id, Category
 1, Celebrity Name
 ...
 
+| Id     | Category |
+|----------|-----------|
+| 0 | Celebrity Name |
+| 0 | Celebrity Name |
+
+
 Hints
 
 The images in the training and testing sets are not in the same dimension. Therefore, you might want to find a way to convert every image to the same shape before sending them into your machine-learning model.
