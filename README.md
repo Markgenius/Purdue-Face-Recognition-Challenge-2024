@@ -9,6 +9,8 @@ Go to the Data tab. The file train.zip stores all images of the training set. Af
 | 1 | Celebrity Name |
 | ... | ...|
 
+You can download the data set of images for training and testing by the link below:
+[Data](https://drive.google.com/drive/folders/1gEAODMW99SSU-ijTAPR5RMhtvgj7ORS6?usp=sharing)
 
 Hints
 
@@ -19,3 +21,6 @@ The small training dataset is only for you to debug your code temporarily. The n
 You want to divide images in train.zip into two parts. The first part is your training set, which you will use to train your model, and the other part is the validation set, on which you monitor your model performance during training. The validation accuracy is a good approximation of the actual testing accuracy, as you don't have access to the ground truth labels of the testing set.
 You want to monitor the training and validation loss closely during the training process. If the training loss is much lower than the validation accuracy, it means your model is overfitting to the training set. Ideally, your training and validation loss should both decrease at the beginning of the training process. At some point, training loss will keep decreasing, but the validation loss will start to increase. This is when you should stop training, as overfitting starts to happen.
 Start early. You can only submit once every day, so your number of submission will be limited if you start two days before the due.
+
+![alt text](training_validation_my_modelBig2.png)
+![alt text](Final score.png)
