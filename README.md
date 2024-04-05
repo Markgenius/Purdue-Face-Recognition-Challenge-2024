@@ -23,4 +23,4 @@ You want to monitor the training and validation loss closely during the training
 Start early. You can only submit once every day, so your number of submission will be limited if you start two days before the due.
 
 ![alt text](training_validation_my_modelBig2.png)
-![alt text](Final score.png)
+![alt text](Final_score.png)
