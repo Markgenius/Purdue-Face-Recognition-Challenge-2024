@@ -3,15 +3,11 @@ This challenge is to perform face recognition on a subset of Celebrity Face Data
 
 Go to the Data tab. The file train.zip stores all images of the training set. After you download and unzip it, the images will be arranged in the folder as 0.jpg, 1.jpg, …. Think of each image in the training set as x^(n). The file 'train.csv' stores all training set labels. Each row of the file stores the filename of an image and the celebrity name of the face in the image. Treat each label as the y^(n). The train.zip is about 13GB, so it might take a night to download it. Therefore, you can first download the train_small.zip, which is a smaller version of the training set, while you download the full dataset. The corresponding labels are stored in train_small.csv. The labels in the training set can be wrong in a small portion of the data, which is very common in real-world datasets. There might be multiple faces in some images, too. However, in the past offerings, students can still achieve nearly 90% prediction accuracy using such a noisy training set.
 
-Id, Category
-0, Celebrity Name
-1, Celebrity Name
-...
-
 | Id     | Category |
 |----------|-----------|
 | 0 | Celebrity Name |
-| 0 | Celebrity Name |
+| 1 | Celebrity Name |
+| ... | ...|
 
 
 Hints
